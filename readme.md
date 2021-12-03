@@ -37,3 +37,9 @@
     2. set main class dari project kita
     
     detail : https://maven.apache.org/plugins/maven-assembly-plugin/usage.html
+
+### 6. Membuat multi module project
+    - Harus ada parentnya
+    - Tambahkan  <packaging>pom</packaging> pada pom parent
+    - Tambahkan <modules>...........</modules> pada pom parent
+    
