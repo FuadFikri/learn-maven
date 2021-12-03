@@ -1,2 +1,6 @@
 /target
 /.idea
+
+learn-maven-app/target
+learn-maven-data/target
+
