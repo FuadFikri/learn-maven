@@ -43,3 +43,7 @@
     - Tambahkan  <packaging>pom</packaging> pada pom parent
     - Tambahkan <modules>...........</modules> pada pom parent
     
+### 7. Dependency Management
+    - Tambahkan <dependencyManagement> pada pom.xml parent
+    Modul learn-maven-app yang membutuhkan dependency Gson tidak perlu menambahkan version karena akan mengikuti version pada parent.
+    Sehingga dalam multi module project akan menggunakan versi dependency yang sama
